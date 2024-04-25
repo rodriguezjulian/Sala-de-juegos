@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "julian-rodriguez-sala-de-juegos"
+  },
+  "targets": {
+    "sala-de-juegos-a8c0e": {
+      "hosting": {
+        "julian-rodriguez-sala-juegos-angular": [
+          "julian-rodriguez-sala-de-juegos-a8c0e"
+        ]
+      }
+    }
+  }
+}

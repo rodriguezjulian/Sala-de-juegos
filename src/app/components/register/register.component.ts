@@ -1,4 +1,3 @@
-import { UsersService } from '../../services/users.service';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import User from '../../interfaces/user.interface';
@@ -19,8 +18,8 @@ export class RegisterComponent {
   email: string = '';
   password: string = '';
 
-  constructor(private userService: UsersService, private router: Router) {}
-  async onSubmit() {
+  //constructor(private userService: UsersService, private router: Router) {}
+  /*async onSubmit() {
     console.log(this.name, this.email, this.password);
     const userData: User = {
       name: this.name,
@@ -33,6 +32,6 @@ export class RegisterComponent {
   redirectToLogin()
   {
     this.router.navigate(['']);
-  }
+  }*/
 }
 

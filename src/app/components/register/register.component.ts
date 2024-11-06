@@ -18,20 +18,13 @@ export class RegisterComponent {
   email: string = '';
   password: string = '';
 
-  //constructor(private userService: UsersService, private router: Router) {}
-  /*async onSubmit() {
-    console.log(this.name, this.email, this.password);
-    const userData: User = {
-      name: this.name,
-      mail: this.email, // Asigna this.email a la propiedad mail
-      contraseña: this.password // Asigna this.password a la propiedad contraseña
-    };  
-      const response = await this.userService.addUser(userData);
-      console.log(response);
-  }
-  redirectToLogin()
-  {
+  /**
+   *
+   */
+  constructor(private router: Router) {  }
+  login() {
     this.router.navigate(['']);
-  }*/
+  }
+
 }
 

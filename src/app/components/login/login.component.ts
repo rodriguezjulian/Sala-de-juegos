@@ -28,7 +28,7 @@ export class LoginComponent {
 
     this.sub = observable.subscribe((respuesta: any[]) => {
       this.loginsCollection = respuesta;
-      this.countLogins = this.loginsCollection.length;  // Corregido `length`
+      this.countLogins = this.loginsCollection.length;
       console.log(respuesta);
     });
   }

@@ -3,6 +3,7 @@
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-12 col-md-8 col-lg-6 col-xl-5">
           <div class="card bg-dark text-white" style="border-radius: 1rem;">
+
             <div class="card-body p-5 text-center">
               <div class="mb-md-5 mt-md-4 pb-5">
                 <h2 class="fw-bold mb-2 text-uppercase">Registro</h2>
@@ -20,7 +21,15 @@
                   <label class="form-label">Contraseña</label>
                 </div>
               </div>
+              <div class="d-flex justify-content-center">
+                <button type="submit">
+                  <span>CREAR CLIENTE</span>
+                </button>
+              </div>
             </div>
+            <button (click)="login()" class="buttonAnonimo" expand="block" color="red">
+               ATRAS
+            </button>
           </div>
         </div>
       </div>
